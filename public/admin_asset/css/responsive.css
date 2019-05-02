@@ -1,0 +1,146 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.main_menu ul li a {
+	padding: 22px 12px;
+}
+.about_right h2::after {
+	right: 120px;
+}
+.about_vedio::before {
+	top: 146px;
+	left: 115px;
+}
+.work_area .section_title h1::after {
+	top: 18px;
+	right: -11px;
+}
+.owl-thumbs {
+	margin-top: 196px;
+}
+.resume_right {
+	padding: 75px 32px;
+}
+.contect_area {
+	overflow: hidden;
+}
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.main_menu ul li a {
+	padding: 22px 12px;
+}
+.about_vedio i.fas {
+	top: 103px;
+	left: 39%;
+}
+.about_vedio::before {
+	top: 96px;
+	left: 66px;
+}
+.about_right h2::after {
+	right: -1%;
+}
+.about_right {
+	padding: 35px 28px 0px 33px;
+}
+.section_title {
+	padding: 1px 114px;
+}
+.single_service {
+	padding: 36px 31px;
+}
+.work_area .section_title h1::after {
+	right: -93px;
+}
+.work_right {
+	margin-left: 71px;
+}
+.portfoli_details button {
+	margin-right: 16px;
+	width: 119px;
+}
+.resume_menu ul li {
+	margin-right: 12px;
+}
+.resume_menu ul li a {
+	padding: 10px 14px;
+}
+.single_client p {
+	padding: 7px 93px;
+}
+.owl-thumbs {
+	top: 172px;
+}
+.contact_form .section_title {
+	padding: 0px 22px;
+}
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.about_vedio i.fas {
+	top: 80px;
+	left: 38%;
+	font-size: 28px;
+}
+.about_vedio::before {
+	top: 77px;
+	left: 47px;
+	width: 57px;
+	height: 57px;
+}
+.about_right h2::after {
+	right: -70px;
+	width: 115px;
+	height: 2px;
+}
+.section_title {
+	margin-bottom: 14px;
+	padding: 1px 25px;
+}
+.single_service {
+	text-align: center;
+	padding: 36px 25px;
+	position: relative;
+	margin-right: 10px;
+	margin-bottom: 36px;
+}
+.work_area {
+	padding: 33px 0px;
+}
+.work_area .section_title {
+	margin-top: 0px;
+	margin-bottom: 41px;
+}
+.work_area .section_title h1::after {
+	right: 211px;
+}
+.portfoli_details button {
+	margin-right: 6px;
+	width: 120px;
+	margin-bottom: 16px;
+}
+	
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+.header_area.sticky.scroll-header {
+	display:none
+}
+
+
+
+
+
+
+}
